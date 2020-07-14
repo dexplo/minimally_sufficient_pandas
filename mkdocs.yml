@@ -1,0 +1,57 @@
+site_name: Minimally Sufficient Pandas
+site_description: A pandas DataFrame accessor providing a minimally sufficient subset of methods
+site_author: Ted Petrou
+site_url: https://www.dexplo.org/minimally_sufficient_pandas
+repo_url: https://github.com/dexplo/minimally_sufficient_pandas
+copyright: Copyright @ 2020 Ted Petrou
+google_analytics:
+  - UA-119777567-7
+  - dexplo.org
+
+theme:
+  name: material
+  favicon: images/favicon.ico
+  custom_dir: docs/overrides
+  features:
+    - tabs
+
+nav:
+  - Home: index.md
+  - What's New: whats_new.md
+  - Upcoming Features: upcoming.md
+  - API Reference: api.md
+  - Dexplo Libraries:
+      - Dexplo: https://www.dexplo.org
+
+extra_css:
+  - css/style.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dexplo
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/TedPetrou
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/TedPetrou
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/dunderdata
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/dunderdata
+
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: True
+    - codehilite:
+        guess_lang: false
+    - pymdownx.superfences
+
+plugins:
+    - search
+    - macros
+    - minify:
+        minify_html: false
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
