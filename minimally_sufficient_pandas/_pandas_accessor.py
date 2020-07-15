@@ -194,6 +194,7 @@ class Op:
             old_method = getattr(self._df, method)
             setattr(self, method, old_method)
 
+
 class To:
 
     def __init__(self, df):
