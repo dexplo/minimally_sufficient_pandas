@@ -18,8 +18,6 @@ theme:
 nav:
   - Home: index.md
   - What's New: whats_new.md
-  - Upcoming Features: upcoming.md
-  - API Reference: api.md
   - Dexplo Libraries:
       - Dexplo: https://www.dexplo.org
 
